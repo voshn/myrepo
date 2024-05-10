@@ -1,0 +1,69 @@
+<html>
+	<head>
+		<title>Displaying video</title>
+	<style>
+		body{
+		background-color:rgb(255,255,255);
+		font-size:20;
+		font-family:arial;
+		border-style:dashed double;
+		border-color:blue;
+		margin-bottom:10px;
+		margin-top:10px;
+		margin-left:250px;
+		margin-right:250px;
+		}
+
+		input {
+		height:20pt;
+		font-size:15pt;
+		}
+
+
+		textarea {
+		font-size:15pt;
+		font-family:sans serif;
+		}
+		select{
+		height:20;
+		}
+
+		h1 {
+		color: blue;
+		font-family: algerian;
+		font-size:30;
+		margin-left: 20px;
+		}
+	</style>
+	</head>
+	<body>
+	<center>
+		<h1>Admission Form<br>Rainbow School</h1>
+		<hr>
+		<form>
+			<label>Name of the Student:</label><input type="text" id="studentname" name="username"><br>
+			<label><br>Name of Mother:</label><input type="text" id="mothername" name="username_2"><br>
+			<label><br>Name of Father:</label><input type="text" id="fathername" name="username_3"><br>
+			<label><br>Enter your address below:<br></label> <br>
+			<textarea name="address" rows="5" cols="75"></textarea><br>
+			<label for="grade"><br>Which grade is the student willing to join:</label>
+			<select id="grade" name="grade">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+			</select>
+			<br>
+			<br>
+			<input type="button" value="Submit Admission Form">
+		</form>
+	</center>
+	</body>
+
+</html>
